@@ -1,8 +1,10 @@
+# Task 2
+
 iter = 0
 old = 1
 sum = 0
-temp = 0
-loop do
+temp = 1
+while iter < ARGV[0] 
     if ARGV[0] < iter
         break
     end
@@ -11,3 +13,6 @@ loop do
     old = temp
     iter++
 end
+ 
+puts sum
+
